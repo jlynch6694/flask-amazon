@@ -1,0 +1,149 @@
+.first {
+  text-align: center;
+}
+
+.second {
+  font-size: 12px;
+  text-align: center;
+  margin: 4px;
+  color: #76767a
+}
+
+
+
+h1 {
+  text-align: left;
+  padding-bottom: 4px;
+  font-size: 28px;
+  margin-bottom: 25px;
+}
+
+
+.pagename {
+ text-align: center;
+ font-size: 28px;
+ font-weight: bold;
+}
+
+.second {
+  margin-top: 25px;
+  magin-bottom: 10px;
+}
+
+.second span {
+  display: inline-block;
+  position: relative;
+}
+
+.second span:before,
+.second span:after {
+ content: "";
+ position: absolute;
+ height: 0px;
+ border: 0.5px solid grey;
+ top: 50%;
+ width: 100px;
+ margin-top: -1px;
+}
+
+.second span:before {
+  right: 100%;
+  margin-right: 15px;
+}
+.second span:after {
+  left: 100%;
+  margin-left: 15px;
+}
+.amp {
+  margin: 0 15 0.1em 0;
+}
+.amp span {
+  font-size: 0.5em;
+}
+label {
+  margin: 0px auto;
+  text-align: left;
+}
+
+.firstbutton {
+  background-color: #f0c14b;
+  width: 100%;
+  color: black;
+  display: inline-block;
+
+}
+
+.a-icon.a-icon-expanded {
+  background-image: url(https://m.media-amazon.com/images/G/01/AUIClients/AmazonUIBaseCSS-sprite_1x-28bd59a…._V2_.png);
+  width: 7px;
+  height: 7px;
+  background-position: -366px -86px;
+  position: absolute;
+  top: 50%;
+  margin-top: -4px;
+  left: 0;
+  background-size: 425px 670px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.button2 {
+  background-color: #e7e9ec;
+  color: black;
+  margin-left: 540px;
+}
+
+
+.class1 {
+  font-size: 8px;
+  text-align: center;
+  margin-left: 50px
+}
+
+
+
+.help {
+  font-size: 13px
+  margin-left: 100px;
+}
+
+.border-form {
+  border-style: solid;
+  border-width: thin;
+  border-radius: 4px;
+  padding: 20px;
+}
+
+.otherlinks {
+  margin-left: 450px;
+}
+
+.cond, .priv, .helpme {
+  margin: 10px;
+  font-size: 11px;
+}
+
+.copyright {
+  text-align: center;
+  color: #555!important;
+  font-size: 11px;
+  margin-top: 10px;
+}
+
+.amazon {
+  margin-left: 00px;
+}
+
+.container {
+  margin-left: 400px;
+}
+
+.account {
+  background-color: gray;
+  margin-left: 450px;
+}
+
+.register {
+  margin-left: 450px;
+}

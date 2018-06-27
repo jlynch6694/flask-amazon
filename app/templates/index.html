@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+{% import 'bootstrap/wtf.html' as wtf%}
+
+<h1>{% block header%} amazon {{ super() }}{% endblock %}</h1>
+
+
+
+{% block app_content %}
+<div class='container'>
+  <div class="row extra-margin">
+      <div class="col-md-4 border-form">
+          <h1> Sign in </h1>
+          <p>
+            {{ form.email.label }}<br>
+            {{ form.email(size=32) }}
+          </p>
+          </br>
+            <p>{{ form.submit1(class='firstbutton') }}
+            </p></br></br>
+          <a class="help" href="#"><i class="a-icon a-icon- expanded"></i><span class="a-expander-prompt">Need help?</span></a>
+          </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+  <div class="col-md-12">
+    <h1 class="second"><span>New to Amazon?</span></h1>
+      <p>{{ form.submit2(class_='account') }}</p>
+
+  </div>
+  <!-- End class -->
+</div>
+<!-- End row -->
+
+</form>
+        <header> </header>
+        <!--  end class-->
+      </div>
+    </div>
+
+
+
+{% endblock %}
